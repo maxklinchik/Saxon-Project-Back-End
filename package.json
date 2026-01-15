@@ -1,19 +1,4 @@
 {
-{
-  "name": "bowling-backend-worker",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler publish",
-    "d1:migrate": "wrangler d1 migrations apply --database bowling_db"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.31.0",
-    "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^8.5.1"
-  }
-}
-{
   "name": "bowling-backend",
   "version": "1.0.0",
   "main": "server.js",
@@ -36,5 +21,4 @@
   "devDependencies": {
     "nodemon": "^2.0.22"
   }
-}
 }
