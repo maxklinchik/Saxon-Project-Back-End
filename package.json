@@ -1,4 +1,5 @@
 {
+{
   "name": "bowling-backend-worker",
   "version": "0.1.0",
   "private": true,
@@ -35,4 +36,5 @@
   "devDependencies": {
     "nodemon": "^2.0.22"
   }
+}
 }
