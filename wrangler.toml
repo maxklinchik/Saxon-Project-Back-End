@@ -1,0 +1,20 @@
+name = "bowling-backend-worker"
+compatibility_date = "2026-01-01"
+
+# Replace with your Cloudflare Account ID before publishing
+account_id = "YOUR_ACCOUNT_ID"
+
+workers_dev = true
+
+# Put production route/zone values in the production env block or configure in dashboard
+route = ""
+zone_id = ""
+
+[env.production]
+workers_dev = false
+route = ""
+zone_id = ""
+
+[[d1_databases]]
+binding = "BOWLING_DB"
+database_name = "bowling_db"

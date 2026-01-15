@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Coach Admin",
+      "email": "coach@club.local",
+      "role": "coach",
+      "password": "$2a$10$yLQSKM7F8HfPvyDWnW.7SOXRpjQRLKVzhVNNp/zRE.Dd1OPi1uXQu",
+      "coach_code": "MVUQD3",
+      "verified": true,
+      "created_at": "2025-12-09T15:35:24.660Z"
+    },
+    {
+      "id": 2,
+      "name": "Alice Student",
+      "role": "player",
+      "team": "girls"
+    },
+    {
+      "id": 3,
+      "name": "Bob Student",
+      "role": "player",
+      "team": "boys"
+    },
+    {
+      "id": 4,
+      "name": "SmokeCoach",
+      "email": "smoke@local",
+      "role": "coach",
+      "password": "$2a$10$CG5ZEGu4LrDtZsGDkyCzxObdzJ6rAVYjpCragRyhUi5Ej1I9k4c1K",
+      "coach_code": "TYGEHO",
+      "created_at": "2025-12-12T19:51:33.610Z",
+      "verified": true
+    },
+    {
+      "id": 5,
+      "name": "AutoCoach",
+      "email": "autocoach@local",
+      "role": "coach",
+      "password": "$2a$10$/i8eGX3.d6TfRDqSaqfFp.NX0NeQhJpvACdJFMZKaAwTwgk38Yitq",
+      "coach_code": "L04UJG",
+      "created_at": "2025-12-15T02:57:05.443Z",
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "New Player",
+      "role": "player",
+      "team": "boys",
+      "created_at": "2025-12-15T02:57:10.614Z"
+    },
+    {
+      "id": 7,
+      "name": "UI Player",
+      "role": "player",
+      "team": "boys",
+      "created_at": "2025-12-15T03:05:49.515Z"
+    },
+    {
+      "id": 8,
+      "name": "UI Player",
+      "role": "player",
+      "team": "boys",
+      "created_at": "2025-12-15T03:05:55.658Z"
+    },
+    {
+      "id": 9,
+      "name": "A",
+      "email": "aswain26@pascack.org",
+      "role": "coach",
+      "password": "$2a$10$BFB3ekSqqz0h3Xq7TSGXm.5Y7cKE7ZJR2MeLD0mphuo4Agh6EAzgC",
+      "coach_code": "FMCZZH",
+      "created_at": "2025-12-15T14:32:39.146Z",
+      "verified": true,
+      "prefs": {
+        "accent": "#ffffff"
+      }
+    },
+    {
+      "id": 10,
+      "name": "UI Coach",
+      "email": "uicoach@local",
+      "role": "coach",
+      "password": "$2a$10$bPAGIuvjVWCcnefVQk8Q0e88FeLIn8wVtmjtq70J066erhvbjmeq.",
+      "coach_code": "OE9K1X",
+      "created_at": "2025-12-15T14:38:30.297Z",
+      "verified": true,
+      "prefs": {
+        "accent": "#ff6a00"
+      }
+    },
+    {
+      "id": 11,
+      "name": "A",
+      "role": "player",
+      "team": "boys",
+      "created_at": "2025-12-15T15:12:33.294Z"
+    },
+    {
+      "id": 12,
+      "name": "A",
+      "role": "player",
+      "team": "boys",
+      "created_at": "2025-12-15T17:46:37.923Z"
+    },
+    {
+      "id": 13,
+      "name": "E2E Tester",
+      "email": "e2e+1766413182@example.com",
+      "role": "coach",
+      "password": "$2a$10$THN2ES6y.BG5LWakB2NJ8OlQ0OUTSPJTvM/eof8WQxRvDsgMa/Lde",
+      "coach_code": "P77GG6",
+      "created_at": "2025-12-22T14:19:43.080Z",
+      "verified": true
+    }
+  ],
+  "locations": [
+    {
+      "id": 2,
+      "name": "Place A",
+      "created_by": 9
+    },
+    {
+      "id": 3,
+      "name": "Place B",
+      "created_by": 9
+    },
+    {
+      "id": 4,
+      "name": "C",
+      "created_by": 9
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Weekly Fun",
+      "location_id": 1,
+      "date": "2025-11-01",
+      "players": [
+        {
+          "id": 2,
+          "name": "Alice Student",
+          "score": 120
+        },
+        {
+          "id": 3,
+          "name": "Bob Student",
+          "score": 90
+        }
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "player_id": 6,
+      "date": "2025-12-15",
+      "scores": [
+        120,
+        130,
+        140
+      ],
+      "avg": 130,
+      "totalWood": 390,
+      "created_by": 5,
+      "created_at": "2025-12-15T02:57:13.494Z"
+    },
+    {
+      "id": 2,
+      "player_id": 8,
+      "date": "2025-12-15",
+      "scores": [
+        150,
+        160,
+        170
+      ],
+      "avg": 160,
+      "totalWood": 480,
+      "created_by": 5,
+      "created_at": "2025-12-15T03:06:02.740Z"
+    }
+  ]
+}
